@@ -1,0 +1,20 @@
+{
+  "name": "test-toolbox-backend",
+  "version": "1.0.0",
+  "description": "test backend api toolboox",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha"
+  },
+  "author": "Isaias Dominguez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.27.2",
+    "chai": "4.3.6",
+    "cors": "2.8.5",
+    "express": "4.18.1",
+    "mocha": "10.0.0"
+  }
+}
